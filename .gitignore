@@ -1,0 +1,53 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+env/
+.venv/
+ENV/
+
+# ========================
+# Trained Model & Data Files
+# (large binary files — store separately or use Git LFS)
+# ========================
+*.yml
+*.npy
+
+# ========================
+# Captured Screenshots
+# ========================
+opencv_capture_*.png
+
+# ========================
+# Pictures / Training Data
+# (can be large — add to repo only if needed)
+# ========================
+Pictures/
+
+# ========================
+# IDE & Editor
+# ========================
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
